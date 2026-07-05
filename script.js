@@ -67,15 +67,28 @@ time--;
 
 },1000);
 
-let p=document.getElementById("palette");
+let p = document.getElementById("palette");
 
-if(p){
+if (p) {
 
-for(let i=1;i<=100;i++){
+    p.innerHTML = "";
 
-p.innerHTML+=
-"<button>"+i+"</button>";
+    for (let i = 0; i < questions.length; i++) {
 
-}
+        let btn = document.createElement("button");
+
+        btn.innerHTML = i + 1;
+
+        btn.onclick = function () {
+
+            current = i;
+
+            loadQuestion();
+
+        };
+
+        p.appendChild(btn);
+
+    }
 
 }
