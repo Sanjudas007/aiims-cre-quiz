@@ -89,6 +89,26 @@ if (p) {
 
         p.appendChild(btn);
 
+    function nextQuestion() {
+
+    if (current < questions.length - 1) {
+
+        current++;
+
+        loadQuestion();
+
+    }
+
+}
+
+function previousQuestion() {
+
+    if (current > 0) {
+
+        current--;
+
+        loadQuestion();
+
     }
 
 }
