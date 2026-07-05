@@ -1,1 +1,1002 @@
-
+[
+  {
+    "id": 1,
+    "question": "Which of the following is NOT a Fundamental Rule?",
+    "options": {
+      "A": "FR 9",
+      "B": "FR 22",
+      "C": "FR 56",
+      "D": "CCS (Leave) Rule 12"
+    }
+  },
+  {
+    "id": 2,
+    "question": "Under CCS (Conduct) Rules, a Government servant shall maintain:",
+    "options": {
+      "A": "Political neutrality",
+      "B": "Absolute integrity",
+      "C": "Devotion to duty",
+      "D": "All of the above"
+    }
+  },
+  {
+    "id": 3,
+    "question": "A Government servant wishes to contest an election to the State Legislative Assembly. He should:",
+    "options": {
+      "A": "Contest without permission",
+      "B": "Obtain prior approval from Head of Office",
+      "C": "Resign or comply with applicable service rules before contesting",
+      "D": "Merely inform the department"
+    }
+  },
+  {
+    "id": 4,
+    "question": "Joining Time is primarily regulated under:",
+    "options": {
+      "A": "CCS (CCA) Rules",
+      "B": "FR/SR",
+      "C": "CCS (Leave) Rules",
+      "D": "GFR"
+    }
+  },
+  {
+    "id": 5,
+    "question": "Which authority generally sanctions Earned Leave?",
+    "options": {
+      "A": "Finance Secretary",
+      "B": "President",
+      "C": "Competent Leave Sanctioning Authority",
+      "D": "UPSC"
+    }
+  },
+  {
+    "id": 6,
+    "question": "The main objective of CCS (Conduct) Rules is to regulate:",
+    "options": {
+      "A": "Salary",
+      "B": "Behaviour and conduct of Government servants",
+      "C": "Pension",
+      "D": "Recruitment"
+    }
+  },
+  {
+    "id": 7,
+    "question": "A Government servant accepts an expensive gift from a contractor without permission. This amounts to:",
+    "options": {
+      "A": "Good conduct",
+      "B": "Misconduct",
+      "C": "Promotion criterion",
+      "D": "Financial prudence"
+    }
+  },
+  {
+    "id": 8,
+    "question": "Which is NOT classified as leave under CCS (Leave) Rules?",
+    "options": {
+      "A": "Earned Leave",
+      "B": "Half Pay Leave",
+      "C": "Casual Leave",
+      "D": "Child Care Leave"
+    }
+  },
+  {
+    "id": 9,
+    "question": "The disciplinary authority imposes a major penalty after departmental inquiry. Which CCS Rules mainly govern this?",
+    "options": {
+      "A": "CCS (CCA) Rules",
+      "B": "CCS (Conduct) Rules",
+      "C": "FR 22",
+      "D": "GFR"
+    }
+  },
+  {
+    "id": 10,
+    "question": "Under Government office procedure, a file generally consists of:",
+    "options": {
+      "A": "Note Sheet and Correspondence",
+      "B": "Cash Book",
+      "C": "Attendance Register",
+      "D": "Stock Register"
+    }
+  },
+  {
+    "id": 11,
+    "question": "Which one is not a major penalty under CCS (CCA) Rules?",
+    "options": {
+      "A": "Removal from service",
+      "B": "Compulsory retirement",
+      "C": "Censure",
+      "D": "Dismissal"
+    }
+  },
+  {
+    "id": 12,
+    "question": "As per office procedure, \"DFA\" means:",
+    "options": {
+      "A": "Draft for Approval",
+      "B": "Department Finance Audit",
+      "C": "Daily Financial Account",
+      "D": "Draft File Arrangement"
+    }
+  },
+  {
+    "id": 13,
+    "question": "A Government servant should avoid:",
+    "options": {
+      "A": "Maintaining integrity",
+      "B": "Conflict of interest",
+      "C": "Devotion to duty",
+      "D": "Courtesy"
+    }
+  },
+  {
+    "id": 14,
+    "question": "Which rule mainly deals with pay fixation after promotion?",
+    "options": {
+      "A": "FR 22",
+      "B": "FR 9",
+      "C": "SR 2",
+      "D": "CCS Conduct Rule 3"
+    }
+  },
+  {
+    "id": 15,
+    "question": "Which document contains the history of decisions on a case?",
+    "options": {
+      "A": "Note Sheet",
+      "B": "Attendance Register",
+      "C": "Log Book",
+      "D": "Service Book"
+    }
+  },
+  {
+    "id": 16,
+    "question": "The primary purpose of RTI Act is:",
+    "options": {
+      "A": "Increase taxation",
+      "B": "Promote transparency and accountability",
+      "C": "Conduct recruitment",
+      "D": "Regulate salaries"
+    }
+  },
+  {
+    "id": 17,
+    "question": "A Government servant who is under suspension:",
+    "options": {
+      "A": "Ceases to be a Government servant",
+      "B": "Continues to be in service but under suspension",
+      "C": "Is automatically dismissed",
+      "D": "Must resign"
+    }
+  },
+  {
+    "id": 18,
+    "question": "Which organization conducts recruitment for Group A civil services?",
+    "options": {
+      "A": "UPSC",
+      "B": "RBI",
+      "C": "EPFO",
+      "D": "SEBI"
+    }
+  },
+  {
+    "id": 19,
+    "question": "Which Fundamental Rule defines \"Pay\"?",
+    "options": {
+      "A": "FR 9",
+      "B": "FR 22",
+      "C": "FR 56",
+      "D": "SR 11"
+    }
+  },
+  {
+    "id": 20,
+    "question": "The best principle of good office administration is:",
+    "options": {
+      "A": "Delay",
+      "B": "Transparency and accountability",
+      "C": "Verbal communication only",
+      "D": "Personal discretion"
+    }
+  },
+  {
+    "id": 21,
+    "question": "Under CCS (Conduct) Rules, a Government servant shall not:",
+    "options": {
+      "A": "Maintain integrity",
+      "B": "Join or assist a political party",
+      "C": "Perform official duties",
+      "D": "Submit annual property returns"
+    }
+  },
+  {
+    "id": 22,
+    "question": "A Government servant is transferred from Delhi to Bhubaneswar. The admissibility of joining time is governed mainly by:",
+    "options": {
+      "A": "CCS (Leave) Rules",
+      "B": "FR/SR",
+      "C": "GFR 2017",
+      "D": "CCS (Pension) Rules"
+    }
+  },
+  {
+    "id": 23,
+    "question": "Who is the custodian of records in a Government office?",
+    "options": {
+      "A": "Drawing & Disbursing Officer",
+      "B": "Head of Office",
+      "C": "Record Keeper/Designated Custodian",
+      "D": "Accounts Officer"
+    }
+  },
+  {
+    "id": 24,
+    "question": "A Government servant intentionally suppresses material facts while applying for Leave Travel Concession (LTC). This is a violation of:",
+    "options": {
+      "A": "CCS (Conduct) Rules",
+      "B": "GFR",
+      "C": "RTI Act",
+      "D": "Official Languages Act"
+    }
+  },
+  {
+    "id": 25,
+    "question": "Which one of the following is not a method of communication in Central Government offices?",
+    "options": {
+      "A": "Office Memorandum (OM)",
+      "B": "Office Order",
+      "C": "Demi-Official (DO) Letter",
+      "D": "Charge Sheet"
+    }
+  },
+  {
+    "id": 26,
+    "question": "A Government servant remains absent without authorization for 15 days. This may attract:",
+    "options": {
+      "A": "No action",
+      "B": "Disciplinary proceedings under CCS (CCA) Rules",
+      "C": "Promotion",
+      "D": "Honorarium"
+    }
+  },
+  {
+    "id": 27,
+    "question": "As per office procedure, a receipt is:",
+    "options": {
+      "A": "A note recorded by the dealing assistant",
+      "B": "Any communication received in the office",
+      "C": "A draft issued to another office",
+      "D": "A cash voucher"
+    }
+  },
+  {
+    "id": 28,
+    "question": "Which authority generally interprets service rules for Central Government employees?",
+    "options": {
+      "A": "Ministry of Finance",
+      "B": "Department of Personnel & Training (DoPT)",
+      "C": "UPSC",
+      "D": "CVC"
+    }
+  },
+  {
+    "id": 29,
+    "question": "Which of the following is not a financial rule?",
+    "options": {
+      "A": "GFR",
+      "B": "Delegation of Financial Powers Rules",
+      "C": "CCS (Conduct) Rules",
+      "D": "Manual on Procurement"
+    }
+  },
+  {
+    "id": 30,
+    "question": "Under CCS (CCA) Rules, suspension is:",
+    "options": {
+      "A": "A punishment",
+      "B": "A preventive measure",
+      "C": "A reward",
+      "D": "A promotion"
+    }
+  },
+  {
+    "id": 31,
+    "question": "Which rule primarily governs Government servants' conduct regarding accepting gifts?",
+    "options": {
+      "A": "CCS (Conduct) Rules",
+      "B": "RTI Act",
+      "C": "GFR",
+      "D": "FR 56"
+    }
+  },
+  {
+    "id": 32,
+    "question": "A note recorded on a file should normally be:",
+    "options": {
+      "A": "Emotional",
+      "B": "Brief, factual and objective",
+      "C": "Lengthy and descriptive",
+      "D": "Handwritten only"
+    }
+  },
+  {
+    "id": 33,
+    "question": "The authority competent to impose a penalty is generally:",
+    "options": {
+      "A": "Any senior officer",
+      "B": "The Disciplinary Authority",
+      "C": "Vigilance Officer only",
+      "D": "Accounts Officer"
+    }
+  },
+  {
+    "id": 34,
+    "question": "Which of the following best describes \"absolute integrity\"?",
+    "options": {
+      "A": "Avoiding office work",
+      "B": "Being honest and free from corruption",
+      "C": "Supporting political activities",
+      "D": "Obeying only senior officers"
+    }
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is an objective of record management?",
+    "options": {
+      "A": "Destroy all files quickly",
+      "B": "Ensure systematic preservation and retrieval",
+      "C": "Increase paperwork",
+      "D": "Delay disposal"
+    }
+  },
+  {
+    "id": 36,
+    "question": "A Government servant discloses confidential office information to the media without authorization. This constitutes:",
+    "options": {
+      "A": "Efficient communication",
+      "B": "Misconduct",
+      "C": "Public service",
+      "D": "Good administration"
+    }
+  },
+  {
+    "id": 37,
+    "question": "Which of the following documents is generally issued for internal administrative instructions?",
+    "options": {
+      "A": "Office Order",
+      "B": "Gazette Notification",
+      "C": "Office Memorandum",
+      "D": "Circular"
+    }
+  },
+  {
+    "id": 38,
+    "question": "In Government offices, e-Office primarily aims to:",
+    "options": {
+      "A": "Increase paper files",
+      "B": "Promote digital file processing",
+      "C": "Reduce employee strength",
+      "D": "Replace financial rules"
+    }
+  },
+  {
+    "id": 39,
+    "question": "The principle of natural justice requires:",
+    "options": {
+      "A": "No hearing before punishment",
+      "B": "Opportunity to be heard before an adverse decision",
+      "C": "Immediate dismissal",
+      "D": "Anonymous complaints only"
+    }
+  },
+  {
+    "id": 40,
+    "question": "A Government servant receives instructions that appear to violate rules. The most appropriate course of action is to:",
+    "options": {
+      "A": "Ignore the instructions",
+      "B": "Seek clarification or written directions through proper channel",
+      "C": "Leak the matter to the media",
+      "D": "Refuse duty without informing anyone"
+    }
+  },
+  {
+    "id": 41,
+    "question": "A newly appointed Central Government employee joins service on 15th June. From which date is the employee normally entitled to pay?",
+    "options": {
+      "A": "Date of appointment order",
+      "B": "Date of joining duty",
+      "C": "First day of next month",
+      "D": "Date of medical examination"
+    }
+  },
+  {
+    "id": 42,
+    "question": "Under FR 9, the term \"Pay\" includes:",
+    "options": {
+      "A": "Basic Pay only",
+      "B": "Basic Pay and Special Pay/Personal Pay where admissible",
+      "C": "HRA only",
+      "D": "DA only"
+    }
+  },
+  {
+    "id": 43,
+    "question": "A Government servant is promoted but refuses to assume the higher post without valid reason. Which statement is correct?",
+    "options": {
+      "A": "Promotion cannot be refused.",
+      "B": "Consequences regarding pay and promotion may follow as per applicable rules.",
+      "C": "The employee automatically retires.",
+      "D": "Nothing happens."
+    }
+  },
+  {
+    "id": 44,
+    "question": "Which leave is credited to an employee's leave account every year?",
+    "options": {
+      "A": "Child Care Leave",
+      "B": "Earned Leave",
+      "C": "Study Leave",
+      "D": "Extraordinary Leave"
+    }
+  },
+  {
+    "id": 45,
+    "question": "Extraordinary Leave (EOL) is granted:",
+    "options": {
+      "A": "Only with full pay",
+      "B": "Only after retirement",
+      "C": "Generally when no other leave is admissible or the employee requests it",
+      "D": "Only for foreign travel"
+    }
+  },
+  {
+    "id": 46,
+    "question": "A Government servant proceeds on leave without obtaining prior sanction. This is treated as:",
+    "options": {
+      "A": "Earned Leave",
+      "B": "Unauthorized absence unless regularized",
+      "C": "Casual Leave",
+      "D": "Duty"
+    }
+  },
+  {
+    "id": 47,
+    "question": "The purpose of a Service Book is to record:",
+    "options": {
+      "A": "Office correspondence",
+      "B": "Personal and service-related details of an employee",
+      "C": "Budget allocation",
+      "D": "Audit observations"
+    }
+  },
+  {
+    "id": 48,
+    "question": "Which authority is normally responsible for maintaining the Service Book?",
+    "options": {
+      "A": "Employee",
+      "B": "Head of Office/Authorized Establishment Section",
+      "C": "CAG",
+      "D": "Ministry of Finance"
+    }
+  },
+  {
+    "id": 49,
+    "question": "Transfer of a Government servant from one station to another generally entitles the employee to:",
+    "options": {
+      "A": "No benefits",
+      "B": "Transfer Travelling Allowance (subject to rules)",
+      "C": "Promotion",
+      "D": "Pension"
+    }
+  },
+  {
+    "id": 50,
+    "question": "Which one of the following is not treated as duty?",
+    "options": {
+      "A": "Period of authorized training treated as duty",
+      "B": "Period of suspension later treated as duty by competent authority",
+      "C": "Unauthorized absence",
+      "D": "Joining Time admissible under rules"
+    }
+  },
+  {
+    "id": 51,
+    "question": "An employee intentionally furnishes false information in an official document. This may amount to:",
+    "options": {
+      "A": "Good faith",
+      "B": "Misconduct attracting disciplinary action",
+      "C": "Efficient administration",
+      "D": "Minor clerical error"
+    }
+  },
+  {
+    "id": 52,
+    "question": "The objective of the General Financial Rules (GFR) is to ensure:",
+    "options": {
+      "A": "Efficient financial management",
+      "B": "Political neutrality",
+      "C": "Medical reimbursement",
+      "D": "Pension revision"
+    }
+  },
+  {
+    "id": 53,
+    "question": "Which authority is competent to sanction Casual Leave?",
+    "options": {
+      "A": "Competent authority as delegated",
+      "B": "President of India",
+      "C": "UPSC",
+      "D": "Election Commission"
+    }
+  },
+  {
+    "id": 54,
+    "question": "A Government servant is placed under suspension because a criminal investigation is pending. Suspension in such a case is generally considered:",
+    "options": {
+      "A": "A punishment",
+      "B": "A preventive measure",
+      "C": "An award",
+      "D": "A retirement benefit"
+    }
+  },
+  {
+    "id": 55,
+    "question": "Which of the following best represents the principle of accountability in Government offices?",
+    "options": {
+      "A": "Destroying records",
+      "B": "Maintaining proper records and being answerable for decisions",
+      "C": "Avoiding written communication",
+      "D": "Oral instructions only"
+    }
+  },
+  {
+    "id": 56,
+    "question": "The Note Sheet in a Government file primarily contains:",
+    "options": {
+      "A": "Bills",
+      "B": "Reasoning, examination of the case, and recommendations",
+      "C": "Attendance",
+      "D": "Audit reports"
+    }
+  },
+  {
+    "id": 57,
+    "question": "A Government servant receives an expensive gift from a vendor during a procurement process. The most appropriate action is:",
+    "options": {
+      "A": "Accept it silently",
+      "B": "Report and deal with it according to the CCS (Conduct) Rules",
+      "C": "Sell it",
+      "D": "Share it with colleagues"
+    }
+  },
+  {
+    "id": 58,
+    "question": "Which one of the following promotes transparency in public administration?",
+    "options": {
+      "A": "RTI Act",
+      "B": "Official Secrets Act alone",
+      "C": "Leave Rules",
+      "D": "Pension Rules"
+    }
+  },
+  {
+    "id": 59,
+    "question": "A file is returned by the higher authority with observations for reconsideration. The dealing assistant should:",
+    "options": {
+      "A": "Ignore the observations",
+      "B": "Re-examine the case and resubmit the file with appropriate remarks",
+      "C": "Close the file immediately",
+      "D": "Send it to another department without action"
+    }
+  },
+  {
+    "id": 60,
+    "question": "Which of the following best describes delegation of powers?",
+    "options": {
+      "A": "Permanent transfer of ownership",
+      "B": "Assignment of authority while retaining overall responsibility",
+      "C": "Complete surrender of responsibility",
+      "D": "Transfer of Government property"
+    }
+  },
+  {
+    "id": 61,
+    "question": "A Central Government employee is transferred from AIIMS Delhi to AIIMS Bhubaneswar. He joins after exhausting the admissible joining time and does not obtain prior approval for the additional absence. The excess period is generally treated as:",
+    "options": {
+      "A": "Duty",
+      "B": "Earned Leave automatically",
+      "C": "Unauthorized absence unless regularized by the competent authority",
+      "D": "Casual Leave"
+    }
+  },
+  {
+    "id": 62,
+    "question": "Under CCS (CCA) Rules, which of the following is a minor penalty?",
+    "options": {
+      "A": "Dismissal from service",
+      "B": "Removal from service",
+      "C": "Reduction to a lower post",
+      "D": "Censure"
+    }
+  },
+  {
+    "id": 63,
+    "question": "A Government servant is arrested and remains in custody for more than 48 hours. Normally, he/she is:",
+    "options": {
+      "A": "Automatically dismissed",
+      "B": "Deemed to be under suspension, subject to applicable rules",
+      "C": "Granted Earned Leave",
+      "D": "Promoted"
+    }
+  },
+  {
+    "id": 64,
+    "question": "Which of the following is NOT a principle of Natural Justice?",
+    "options": {
+      "A": "Nobody should be a judge in his own cause",
+      "B": "Opportunity of hearing",
+      "C": "Punishment without inquiry",
+      "D": "Fair and unbiased decision"
+    }
+  },
+  {
+    "id": 65,
+    "question": "A dealing assistant receives an unsigned application from an employee. What should be the first action?",
+    "options": {
+      "A": "Reject immediately",
+      "B": "Process the application",
+      "C": "Return it for proper authentication",
+      "D": "Send it to Audit"
+    }
+  },
+  {
+    "id": 66,
+    "question": "The primary objective of e-Office is to:",
+    "options": {
+      "A": "Increase paperwork",
+      "B": "Replace employees",
+      "C": "Digitize file management and improve efficiency",
+      "D": "Eliminate service records"
+    }
+  },
+  {
+    "id": 67,
+    "question": "A Government servant participates in a political rally while in service. This is primarily governed by:",
+    "options": {
+      "A": "CCS (Conduct) Rules",
+      "B": "FR",
+      "C": "GFR",
+      "D": "RTI Act"
+    }
+  },
+  {
+    "id": 68,
+    "question": "An employee intentionally delays disposal of public grievances for personal reasons. This is:",
+    "options": {
+      "A": "Administrative efficiency",
+      "B": "Misconduct",
+      "C": "Good governance",
+      "D": "Financial prudence"
+    }
+  },
+  {
+    "id": 69,
+    "question": "The competent authority imposes withholding of increments without cumulative effect. This is:",
+    "options": {
+      "A": "Major penalty",
+      "B": "Minor penalty",
+      "C": "Criminal punishment",
+      "D": "Financial penalty under GFR"
+    }
+  },
+  {
+    "id": 70,
+    "question": "The General Financial Rules (GFR), 2017 primarily deal with:",
+    "options": {
+      "A": "Recruitment",
+      "B": "Financial management, procurement and expenditure",
+      "C": "Promotions",
+      "D": "Pension only"
+    }
+  },
+  {
+    "id": 71,
+    "question": "Which one of the following is NOT a recognized mode of official communication?",
+    "options": {
+      "A": "Office Memorandum",
+      "B": "Office Order",
+      "C": "Demi-Official Letter",
+      "D": "Personal WhatsApp message"
+    }
+  },
+  {
+    "id": 72,
+    "question": "Which authority is responsible for maintaining discipline in an office?",
+    "options": {
+      "A": "Every employee individually",
+      "B": "The Disciplinary Authority and supervisory officers",
+      "C": "The Accounts Officer only",
+      "D": "Audit Department"
+    }
+  },
+  {
+    "id": 73,
+    "question": "The Record Retention Schedule is mainly used for:",
+    "options": {
+      "A": "Salary fixation",
+      "B": "Deciding preservation and destruction of records",
+      "C": "Grant of leave",
+      "D": "Recruitment"
+    }
+  },
+  {
+    "id": 74,
+    "question": "Under the RTI Act, information should ordinarily be provided within:",
+    "options": {
+      "A": "15 days",
+      "B": "30 days",
+      "C": "45 days",
+      "D": "90 days"
+    }
+  },
+  {
+    "id": 75,
+    "question": "A Government servant accepts hospitality from a private contractor dealing with his office without permission. This may constitute:",
+    "options": {
+      "A": "Good public relations",
+      "B": "Misconduct under CCS (Conduct) Rules",
+      "C": "Office courtesy",
+      "D": "No violation"
+    }
+  },
+  {
+    "id": 76,
+    "question": "The term Competent Authority refers to:",
+    "options": {
+      "A": "Any senior employee",
+      "B": "The authority empowered under the relevant rules",
+      "C": "Only the President of India",
+      "D": "Only the Finance Secretary"
+    }
+  },
+  {
+    "id": 77,
+    "question": "Which of the following is an essential characteristic of good noting?",
+    "options": {
+      "A": "Emotional language",
+      "B": "Personal opinion without facts",
+      "C": "Clear, concise and rule-based analysis",
+      "D": "Lengthy narration"
+    }
+  },
+  {
+    "id": 78,
+    "question": "A disciplinary inquiry should normally be conducted in accordance with:",
+    "options": {
+      "A": "Principles of Natural Justice",
+      "B": "Personal opinion of the Inquiry Officer",
+      "C": "Oral instructions",
+      "D": "Media reports"
+    }
+  },
+  {
+    "id": 79,
+    "question": "Which of the following best promotes Good Governance?",
+    "options": {
+      "A": "Delay in disposal",
+      "B": "Transparency, accountability and responsiveness",
+      "C": "Avoiding written communication",
+      "D": "Confidentiality in every matter"
+    }
+  },
+  {
+    "id": 80,
+    "question": "A Government employee intentionally provides false information in Annual Property Return (APR). This is likely to attract:",
+    "options": {
+      "A": "Appreciation",
+      "B": "Disciplinary action under CCS Rules",
+      "C": "Promotion",
+      "D": "Transfer only"
+    }
+  },
+  {
+    "id": 81,
+    "question": "The average of 15 numbers is 48. If one number is excluded, the average becomes 46. The excluded number is:",
+    "options": {
+      "A": "74",
+      "B": "76",
+      "C": "78",
+      "D": "80"
+    }
+  },
+  {
+    "id": 82,
+    "question": "A sum becomes ₹13,310 in 2 years at 10% compound interest (annual compounding). The principal is:",
+    "options": {
+      "A": "₹10,000",
+      "B": "₹11,000",
+      "C": "₹12,000",
+      "D": "₹10,500"
+    }
+  },
+  {
+    "id": 83,
+    "question": "A train 240 m long crosses a platform 360 m long in 30 seconds. The speed of the train is:",
+    "options": {
+      "A": "60 km/h",
+      "B": "72 km/h",
+      "C": "75 km/h",
+      "D": "80 km/h"
+    }
+  },
+  {
+    "id": 84,
+    "question": "A and B together can complete a work in 12 days. A alone takes 20 days. B alone will complete the work in:",
+    "options": {
+      "A": "24 days",
+      "B": "28 days",
+      "C": "30 days",
+      "D": "32 days"
+    }
+  },
+  {
+    "id": 85,
+    "question": "If the ratio of present ages of A and B is 5:7 and after 8 years the ratio becomes 13:17, A's present age is:",
+    "options": {
+      "A": "20 years",
+      "B": "25 years",
+      "C": "30 years",
+      "D": "35 years"
+    }
+  },
+  {
+    "id": 86,
+    "question": "Complete the series: 3, 7, 15, 31, 63, ?",
+    "options": {
+      "A": "95",
+      "B": "127",
+      "C": "129",
+      "D": "131"
+    }
+  },
+  {
+    "id": 87,
+    "question": "If DOCTOR is coded as EPDUPS, then NURSE is coded as:",
+    "options": {
+      "A": "OVSTF",
+      "B": "OVTSE",
+      "C": "OVTTF",
+      "D": "OVRTF"
+    }
+  },
+  {
+    "id": 88,
+    "question": "Pointing to a woman, Ravi said, \"She is the daughter of my mother's only son.\" The woman is Ravi's:",
+    "options": {
+      "A": "Sister",
+      "B": "Daughter",
+      "C": "Niece",
+      "D": "Cousin"
+    }
+  },
+  {
+    "id": 89,
+    "question": "Find the odd one out.",
+    "options": {
+      "A": "Square",
+      "B": "Rectangle",
+      "C": "Triangle",
+      "D": "Cube"
+    }
+  },
+  {
+    "id": 90,
+    "question": "Statement: All AIIMS employees are Government employees. Some Government employees are researchers. Conclusion: Some AIIMS employees are researchers. All researchers are AIIMS employees.",
+    "options": {
+      "A": "Only I follows",
+      "B": "Only II follows",
+      "C": "Both follow",
+      "D": "Neither follows"
+    }
+  },
+  {
+    "id": 91,
+    "question": "Choose the correctly spelled word.",
+    "options": {
+      "A": "Accomodation",
+      "B": "Accommodation",
+      "C": "Acommodation",
+      "D": "Accommadation"
+    }
+  },
+  {
+    "id": 92,
+    "question": "Choose the correct sentence.",
+    "options": {
+      "A": "Each of the boys have submitted their assignment.",
+      "B": "Each of the boys has submitted his assignment.",
+      "C": "Each boys has submitted their assignment.",
+      "D": "Each of boys have submitted his assignment."
+    }
+  },
+  {
+    "id": 93,
+    "question": "Choose the synonym of Prudent.",
+    "options": {
+      "A": "Careless",
+      "B": "Wise",
+      "C": "Angry",
+      "D": "Weak"
+    }
+  },
+  {
+    "id": 94,
+    "question": "Fill in the blank: The meeting has been ______ until next Monday.",
+    "options": {
+      "A": "put off",
+      "B": "put on",
+      "C": "put over",
+      "D": "put out"
+    }
+  },
+  {
+    "id": 95,
+    "question": "Choose the antonym of Scarcity.",
+    "options": {
+      "A": "Poverty",
+      "B": "Shortage",
+      "C": "Abundance",
+      "D": "Deficiency"
+    }
+  },
+  {
+    "id": 96,
+    "question": "Which protocol is primarily used to securely browse websites?",
+    "options": {
+      "A": "HTTP",
+      "B": "HTTPS",
+      "C": "FTP",
+      "D": "SMTP"
+    }
+  },
+  {
+    "id": 97,
+    "question": "In Microsoft Excel, which function returns the largest value in a range?",
+    "options": {
+      "A": "MAX()",
+      "B": "HIGH()",
+      "C": "LARGE()",
+      "D": "TOP()"
+    }
+  },
+  {
+    "id": 98,
+    "question": "Which Article of the Constitution deals with the Right to Equality?",
+    "options": {
+      "A": "Articles 14–18",
+      "B": "Articles 19–22",
+      "C": "Articles 32–35",
+      "D": "Articles 51–54"
+    }
+  },
+  {
+    "id": 99,
+    "question": "The headquarters of AIIMS is located in:",
+    "options": {
+      "A": "Mumbai",
+      "B": "New Delhi",
+      "C": "Kolkata",
+      "D": "Lucknow"
+    }
+  },
+  {
+    "id": 100,
+    "question": "Which of the following is NOT an input device?",
+    "options": {
+      "A": "Scanner",
+      "B": "Keyboard",
+      "C": "Mouse",
+      "D": "Plotter"
+    }
+  }
+]
