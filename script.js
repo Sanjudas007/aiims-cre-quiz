@@ -1,14 +1,4 @@
-// ==================== QUESTIONS DATA ====================
-const questions = [ /* Paste the entire array from your JSON here */ ];
-
-// For convenience, you can also load from external file, but since it's static:
-const allQuestions = [
-  // ... (your full 100 questions array goes here)
-  // I'll assume you paste the whole array inside this variable
-];
-
-// Use the data from the file
-// Copy the entire content inside the <FILE> and replace the line below:
+// ==================== QUESTIONS ====================
 [
   {
     "id": 1,
@@ -1114,162 +1104,132 @@ const allQuestions = [
 
 // ==================== STATE ====================
 let current = 0;
-let timeLeft = 5400; // 90 minutes in seconds
+let timeLeft = 5400;
 let timerInterval = null;
-let userAnswers = new Array(quizQuestions.length).fill(null);
+let userAnswers = [];
 let isSubmitted = false;
+let quizStarted = false;
 
-// ==================== DOM REFERENCES ====================
+// ==================== DOM ELEMENTS ====================
+const startScreen = document.getElementById("startScreen");
+const quizContainer = document.getElementById("quizContainer");
+const resultContainer = document.getElementById("resultContainer");
+const reviewContainer = document.getElementById("reviewContainer");
+
 const qNoEl = document.getElementById("qNo");
 const questionEl = document.getElementById("question");
-const optionsContainer = document.getElementById("options"); // Better to use container
+const optionsContainer = document.getElementById("options");
 const timerEl = document.getElementById("timer");
 const paletteEl = document.getElementById("palette");
-const resultContainer = document.getElementById("resultContainer");
-const scoreEl = document.getElementById("score");
-const percentageEl = document.getElementById("percentage");
-const reviewContainer = document.getElementById("reviewContainer");
+
+// ==================== START TEST ====================
+function startTest() {
+    if (quizStarted) return;
+    
+    quizStarted = true;
+    userAnswers = new Array(quizQuestions.length).fill(null);
+    
+    // Hide start screen, show quiz
+    if (startScreen) startScreen.style.display = "none";
+    if (quizContainer) quizContainer.style.display = "block";
+    
+    current = 0;
+    timeLeft = 5400;
+    
+    loadQuestion();
+    startTimer();
+}
 
 // ==================== LOAD QUESTION ====================
 function loadQuestion() {
-  if (isSubmitted) return;
+    const q = quizQuestions[current];
 
-  const q = quizQuestions[current];
+    qNoEl.innerHTML = `Question ${current + 1} of ${quizQuestions.length}`;
+    questionEl.innerHTML = q.question;
 
-  qNoEl.innerHTML = `Question ${current + 1} of ${quizQuestions.length}`;
-  questionEl.innerHTML = q.question;
+    optionsContainer.innerHTML = "";
 
-  // Clear previous options
-  optionsContainer.innerHTML = "";
+    q.options.forEach((option, index) => {
+        const div = document.createElement("div");
+        div.className = "option";
+        div.textContent = option;
+        div.onclick = () => selectAnswer(index);
 
-  q.options.forEach((option, index) => {
-    const div = document.createElement("div");
-    div.className = "option";
-    div.innerHTML = option;
-    div.onclick = () => selectAnswer(index);
+        if (userAnswers[current] === index) div.classList.add("selected");
+        optionsContainer.appendChild(div);
+    });
 
-    if (userAnswers[current] === index) div.classList.add("selected");
-    if (isSubmitted) {
-      if (index === q.answer) div.classList.add("correct");
-      if (index === userAnswers[current] && index !== q.answer) div.classList.add("wrong");
-    }
-
-    optionsContainer.appendChild(div);
-  });
-
-  updatePalette();
+    updatePalette();
 }
 
 // ==================== SELECT ANSWER ====================
-function selectAnswer(optionIndex) {
-  if (isSubmitted) return;
-  userAnswers[current] = optionIndex;
-  loadQuestion();
+function selectAnswer(index) {
+    if (isSubmitted) return;
+    userAnswers[current] = index;
+    loadQuestion();
 }
 
 // ==================== TIMER ====================
 function startTimer() {
-  timerInterval = setInterval(() => {
-    if (timeLeft <= 0) {
-      clearInterval(timerInterval);
-      submitQuiz();
-      return;
-    }
-    const m = Math.floor(timeLeft / 60);
-    const s = timeLeft % 60;
-    timerEl.textContent = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-    timeLeft--;
-  }, 1000);
+    timerInterval = setInterval(() => {
+        if (timeLeft <= 0) {
+            submitQuiz();
+            return;
+        }
+        const m = Math.floor(timeLeft / 60);
+        const s = timeLeft % 60;
+        timerEl.textContent = `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+        timeLeft--;
+    }, 1000);
 }
 
 // ==================== PALETTE ====================
 function updatePalette() {
-  paletteEl.innerHTML = "";
-  quizQuestions.forEach((_, i) => {
-    const btn = document.createElement("button");
-    btn.textContent = i + 1;
-    btn.onclick = () => {
-      current = i;
-      loadQuestion();
-    };
+    paletteEl.innerHTML = "";
+    for (let i = 0; i < quizQuestions.length; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i + 1;
+        btn.onclick = () => { current = i; loadQuestion(); };
 
-    if (i === current) btn.classList.add("current");
-    if (userAnswers[i] !== null) btn.classList.add("answered");
+        if (i === current) btn.classList.add("current");
+        if (userAnswers[i] !== null) btn.classList.add("answered");
 
-    paletteEl.appendChild(btn);
-  });
+        paletteEl.appendChild(btn);
+    }
 }
 
-// ==================== NAVIGATION ====================
-function nextQuestion() {
-  if (current < quizQuestions.length - 1) {
-    current++;
-    loadQuestion();
-  }
-}
+// Navigation
+function nextQuestion() { if (current < quizQuestions.length - 1) { current++; loadQuestion(); } }
+function previousQuestion() { if (current > 0) { current--; loadQuestion(); } }
 
-function previousQuestion() {
-  if (current > 0) {
-    current--;
-    loadQuestion();
-  }
-}
-
-// ==================== SUBMIT QUIZ ====================
+// Submit
 function submitQuiz() {
-  if (isSubmitted) return;
-  isSubmitted = true;
-  clearInterval(timerInterval);
+    if (isSubmitted) return;
+    isSubmitted = true;
+    clearInterval(timerInterval);
 
-  let score = 0;
-  quizQuestions.forEach((q, i) => {
-    if (userAnswers[i] === q.answer) score++;
-  });
+    let score = 0;
+    quizQuestions.forEach((q, i) => {
+        if (userAnswers[i] === q.answer) score++;
+    });
 
-  const percentage = ((score / quizQuestions.length) * 100).toFixed(2);
+    const percentage = ((score / quizQuestions.length) * 100).toFixed(2);
 
-  // Show Result
-  scoreEl.textContent = `${score} / ${quizQuestions.length}`;
-  percentageEl.textContent = `${percentage}%`;
-  resultContainer.style.display = "block";
+    document.getElementById("score").textContent = `${score} / ${quizQuestions.length}`;
+    document.getElementById("percentage").textContent = `${percentage}%`;
+    resultContainer.style.display = "block";
 
-  // Load Review
-  loadReview(score);
-
-  loadQuestion(); // Refresh to show correct/wrong answers
+    loadReview(score);
 }
 
-// ==================== REVIEW MODE ====================
+// Review
 function loadReview(score) {
-  reviewContainer.innerHTML = `<h2>Review Your Answers (Score: ${score}/${quizQuestions.length})</h2>`;
-
-  quizQuestions.forEach((q, i) => {
-    const div = document.createElement("div");
-    div.className = "review-item";
-    div.innerHTML = `
-      <strong>Q${i+1}:</strong> ${q.question}<br>
-      <span>Your Answer: <strong>${q.options[userAnswers[i]] || "Not Answered"}</strong></span><br>
-      <span>Correct Answer: <strong style="color:green;">${q.options[q.answer]}</strong></span>
-    `;
-    reviewContainer.appendChild(div);
-  });
+    reviewContainer.innerHTML = `<h2>Review (Score: ${score}/${quizQuestions.length})</h2>`;
+    // ... (same as before)
 }
 
-// ==================== INITIALIZE ====================
-function initQuiz() {
-  if (!questionEl) return;
-
-  // Paste your full questions array here before calling initQuiz
-  // Example: quizQuestions = [ ... your 100 questions ... ];
-
-  loadQuestion();
-  startTimer();
-
-  // Make global functions available for HTML buttons
-  window.nextQuestion = nextQuestion;
-  window.previousQuestion = previousQuestion;
-  window.submitQuiz = submitQuiz;
-}
-
-// Start the quiz
-initQuiz();
+// Make functions global
+window.startTest = startTest;
+window.nextQuestion = nextQuestion;
+window.previousQuestion = previousQuestion;
+window.submitQuiz = submitQuiz;
