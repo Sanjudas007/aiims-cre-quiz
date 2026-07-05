@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIIMS CRE CBT</title>
 
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#eef2f7;
+}
+
+.header{
+background:#0056b3;
+color:white;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.main{
+display:flex;
+height:calc(100vh - 70px);
+}
+
+.questionArea{
+flex:4;
+background:white;
+padding:25px;
+}
+
+.palette{
+flex:1;
+background:#f4f4f4;
+padding:20px;
+overflow:auto;
+}
+
+.option{
+display:block;
+margin:15px 0;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+cursor:pointer;
+}
+
+.bottom{
+margin-top:30px;
+display:flex;
+gap:10px;
+}
+
+button{
+padding:12px 20px;
+border:none;
+background:#0056b3;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+#timer{
+font-size:24px;
+font-weight:bold;
+}
+
+.palette button{
+width:45px;
+height:45px;
+margin:4px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h2>RTONC AIIMS CRE CBT</h2>
+
+<div id="timer">
+90:00
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="questionArea">
+
+<h3 id="qNo">
+Question 1 of 100
+</h3>
+
+<h2 id="question">
+Loading...
+</h2>
+
+<label class="option">
+<input type="radio" name="ans">
+<span id="o1"></span>
+</label>
+
+<label class="option">
+<input type="radio" name="ans">
+<span id="o2"></span>
+</label>
+
+<label class="option">
+<input type="radio" name="ans">
+<span id="o3"></span>
+</label>
+
+<label class="option">
+<input type="radio" name="ans">
+<span id="o4"></span>
+</label>
+
+<div class="bottom">
+
+<button>Previous</button>
+
+<button>Mark Review</button>
+
+<button>Next</button>
+
+<button>Submit</button>
+
+</div>
+
+</div>
+
+<div class="palette">
+
+<h3>Question Palette</h3>
+
+<div id="palette"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
